@@ -1,3 +1,102 @@
 {
-  "parent": "minecraft:block/furnace_on"
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/furnace"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "minecraft:animations/furnace/rig/craftingtable"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "minecraft:animations/furnace/rig/top"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "minecraft:animations/furnace/rig/bottom"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "minecraft:animations/furnace/rig/wood"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "minecraft:animations/furnace/rig/outer2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "minecraft:animations/furnace/rig/inner3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "minecraft:animations/furnace/rig/inner4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8
+			},
+			"model": "minecraft:animations/furnace/rig/open_small_top2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9
+			},
+			"model": "minecraft:animations/furnace/rig/open_small_top"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10
+			},
+			"model": "minecraft:animations/furnace/rig/open_big_bottom"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 11
+			},
+			"model": "minecraft:animations/furnace/rig/outer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 12
+			},
+			"model": "minecraft:animations/furnace/rig/inner1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 13
+			},
+			"model": "minecraft:animations/furnace/rig/inner2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 14
+			},
+			"model": "minecraft:animations/furnace/rig/open_small_bottom"
+		}
+	],
+	"aj": {
+		"includedRigs": {
+			"9bba8f53-dde6-d60d-3db7-bc15da79db21": {
+				"name": "furnace",
+				"usedIDs": [
+					[1, 14]
+				]
+			}
+		}
+	}
 }
